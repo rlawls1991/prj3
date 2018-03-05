@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body, th, td, div, ul, ol, li, dl, dt, dd, form, fieldset, legend,
+	textarea, p, input, select {
+	margin: 0;
+	padding: 0
+}
+
+fieldset, img {
+	border: 0px
+}
+
+ul, ol, li, dl {
+	list-style: none
+}
+
+input, select, textarea, button {
+	border-radius: 0px;
+	vertical-align: middle
+}
+
+body, th, td, input, select, textarea {
+	font-size: 13px;
+	font-family: '맑은 고딕', '돋움', sans-serif;
+	color: #222;
+	letter-spacing: -1px
+}
+
+a {
+	color: #333;
+	text-decoration: none
+}
+
+a:HOVER {
+	color: #128DFF;
+	text-decoration: underline
+}
+
+.inputBox {
+	border: 1px solid #EDEDED;
+	background-color: #FFFFFF;
+	height: 20px
+}
+
+.btn {
+	border: 1px solid #EDEDED;
+	background-color: #FFFFFF;
+	height: 22px;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 4px
+}
